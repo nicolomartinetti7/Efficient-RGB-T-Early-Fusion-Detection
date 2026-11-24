@@ -32,8 +32,8 @@ from utils.general import (LOGGER, ROOT, Profile, check_requirements, check_suff
                            xyxy2xywh, yaml_load)
 from utils.plots import Annotator, colors, save_one_box
 from utils.torch_utils import copy_attr, smart_inference_mode
-from .ops_dcnv3.modules import DCNv3
-from myCodeZoo.rgb_hsv_convert import rgb2hsv_torch, hsv2rgb_torch
+# from .ops_dcnv3.modules import DCNv3
+# from myCodeZoo.rgb_hsv_convert import rgb2hsv_torch, hsv2rgb_torch
 
 def autopad(k, p=None, d=1):  # kernel, padding, dilation
     # Pad to 'same' shape outputs
