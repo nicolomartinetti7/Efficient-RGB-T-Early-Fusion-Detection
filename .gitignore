@@ -1,0 +1,48 @@
+# Python virtual environments
+eme_env/
+pyvenv/
+.venv/
+venv/
+env/
+
+# Python and Jupyter caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+*.cache
+
+# M3FD datasets (keep preparation scripts and split lists tracked)
+/dataset/M3FD/
+/dataset/M3FD_Detection/
+/dataset/M3FD_zxSceneSplit_yolov5Format/
+/datasets/
+/dataset/*.zip
+/dataset/*.rar
+/dataset/*.7z
+/dataset/*.tar
+/dataset/*.tar.gz
+
+# Model weights and generated training outputs
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.safetensors
+checkpoints/
+weights/
+runs/
+logs/
+wandb/
+outputs/
+work_dirs/
+*.log
+
+# Local settings and secrets
+.vscode/
+.env
+.env.local
+
+# OS files
+.DS_Store
+Thumbs.db
